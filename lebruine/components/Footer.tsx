@@ -1,16 +1,29 @@
 import React from "react";
-import styles from '../styles/footer.module.css';
+import Image from "next/image";
 import logoInstagram from '../assets/instagram-ico.svg';
 import logoFacebook from '../assets/facebook-ico.svg';
+import Link from "next/link";
 
-function Footer(){
-    return(
-        <footer className={styles.rodape}>
-            <p className={styles.footer}>Acompanhe as redes sociais do Le Bruine: <img src={logoInstagram} alt="logo instagram" className="rede-social"/><img src={logoFacebook} alt="logo facebook" className="rede-social"/></p>
-            <p className={styles.footer}>Rua Francisco Carraca de Freitas, 270, Boa Vista, Garanhuns-PE</p>
-            <p className={styles.footer}>Le Bruine © 2024 - Todos os direitos reservados / Desenvolvido por: F.A Soluções Tecnológicas - Yuri Baruk Freitas | Thiago Anízio Miranda</p>
+const Footer: React.FC = () => {
+    return (
+        <footer className="bg-red-600 text-white p-4 flex flex-col items-center">
+            <p className="text-base mb-4">Acompanhe as redes sociais do Le Bruine:</p>
+            <div className="flex items-center justify-center gap-3">
+                <Link href='#' passHref>
+                    <div className="cursor-pointer">
+                        <Image src={logoInstagram} alt="logo instagram" width={24} height={24} />
+                    </div>
+                </Link>
+                <Link href='#' passHref>
+                    <div className="cursor-pointer">
+                        <Image src={logoFacebook} alt="logo facebook" width={24} height={24} />
+                    </div>
+                </Link>
+            </div>
+            <p className="text-base my-4">Rua Francisco Carraca de Freitas, 270, Boa Vista, Garanhuns-PE</p>
+            <p className="text-base">Le Bruine © 2024 - Todos os direitos reservados / Desenvolvido por: F.A Soluções Tecnológicas - Yuri Baruk Freitas | Thiago Anízio Miranda</p>
         </footer>
-    )
+    );
 }
 
 export default Footer;
