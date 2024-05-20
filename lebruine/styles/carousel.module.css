@@ -1,0 +1,87 @@
+.carousel {
+    width: 100%;
+    height: 270px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 16px;
+}
+
+.img_card {
+    width: 424px;
+    height: 283px;
+    border-radius: 8px;
+}
+
+.card_hamburguer {
+    width: 401px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url(../assets/hamburger.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
+}
+
+
+.card_sushi {
+    width: 401px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/sushi.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
+}
+
+.card_massas {
+    width: 401px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/massas.png);background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
+}
+
+.card_pizza {
+    width: 401px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/pizza.png);background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
+}

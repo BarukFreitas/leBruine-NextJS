@@ -1,0 +1,65 @@
+.restaurantes {
+    display: inline-flex;
+    /* padding: 16px; */
+    margin-top: 24px;
+    padding-left: 16px;
+    align-items: end;
+    width: auto;
+    height: 100%;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.info {
+    font-family: 'Glory', sans-serif;
+    justify-content: start;
+    align-items: baseline;
+    width: auto;
+    /* margin-bottom: 16px; */
+}
+
+.sub-info {
+    float: left;
+    margin-right: 0;
+}
+
+.btn-reserva {
+    margin: auto;
+}
+
+.n_fone {
+    align-items: baseline;
+}
+
+.fone {
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+    color: #D80E0E;
+    align-items: baseline;
+    font-weight: bold;
+    float: right;
+    margin-left: auto;
+}
+
+.reserva {
+    width: 138px;
+    height: 38px;
+    background-color: #D80E0E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Glory', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.r_titulo {
+    color: #D80E0E;
+    margin: 0;
+
+}
+
+.rua {
+    color: gray;
+    margin: auto;
+}

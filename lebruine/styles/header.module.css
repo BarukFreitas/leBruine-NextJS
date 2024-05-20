@@ -1,0 +1,104 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.raiz{
+    height: 93px;
+    background-color: #D80E0E;
+    display: flex;
+    align-items: center;
+    border-style: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    font-family: 'Glory', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.search_area {
+    display: flex;
+    align-items: center;
+    /* margin: auto;
+    padding: auto; */
+}
+
+.search_bar {
+    width: 423px;
+    height: 47px;
+    background-color: #fff;
+    font-size: 17px;
+    color: black;
+    padding-left: 8px;
+    margin-right: 14px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+    outline: 0;
+}
+
+.search_bar::placeholder {
+    font-style: italic;
+    color: lightgray;
+    padding-left: 4px;
+    font-size: 15px;
+}
+
+.button_search {
+    width: 61px;
+    height: 47px;
+    background-color: rgb(110, 5, 5);
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 0 8px;
+}
+
+.a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48px;
+    padding: 0;
+}
+
+.font_login {
+    font-family: 'Glory', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.font_login {
+    font-family: 'Glory', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}

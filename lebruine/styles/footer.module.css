@@ -1,0 +1,38 @@
+#footer {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    bottom: 0%;
+}
+
+.rodape {
+    width: 100%;
+    margin-top: auto;
+    height: auto;
+    background-color: #D80E0E;
+    font-family: 'Glory',  sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-top: 0.4px;
+    padding-bottom: 1px;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer {
+    /* margin: 8px 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.rede-social {
+    display: inline-block;
+    align-items: end;
+    padding-left: 4px;
+    width: 22px;
+    height: 22px;
+}
