@@ -1,5 +1,3 @@
-// Header.tsx
-
 import React from 'react';
 import Image from 'next/image';
 import logo from '../assets/le-Bruine-logo.png';
