@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
-    <div className="bg-red-600 text-white h-24 flex items-center justify-between px-4">
+    <div className="bg-red-600 text-white w-auto h-24 flex items-center justify-between px-4 gap-2">
       <Link href="/" passHref>
         <div className="flex-shrink-0 cursor-pointer">
           <Image src={logo} alt="logo" width={120} height={80} />
@@ -17,22 +17,22 @@ const Header: React.FC = () => {
         <input
           type="text"
           placeholder="Busque por restaurante, comida, cidade..."
-          className="w-96 h-12 bg-white text-black text-base px-2 mr-4 rounded-md focus:outline-none"
+          className="w-auto h-12 bg-white text-black text-base px-2 mr-4 rounded-md focus:outline-none"
           id="searchBar"
         />
-        <button className="w-16 h-12 bg-red-800 rounded-md hover:bg-red-900 flex justify-center">
+        <button className="w-16 h-12 bg-red-800 rounded-md hover:bg-red-900 flex justify-center items-center">
           <Image src={lupa} alt="lupa" />
         </button>
       </div>
       <div className="flex gap-4">
         <Link href="#" passHref>
-          <div className="text-white font-semibold w-32 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Fazer Reserva</div>
+          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Minhas reservas</div>
         </Link>
         <Link href="#" passHref>
-          <div className="text-white font-semibold w-32 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Minhas Reservas</div>
+          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Sobre</div>
         </Link>
         <Link href="#" passHref>
-          <div className="text-white font-semibold w-32 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Restaurantes</div>
+          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Restaurantes</div>
         </Link>
       </div>
       <Link href="/Contact" passHref>
