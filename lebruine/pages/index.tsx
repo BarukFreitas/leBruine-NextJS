@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Carousel from '@/components/Carousel';
@@ -18,7 +19,6 @@ const Home: React.FC = () => {
         <Header />
       </header>
       <main className={styles.main}>
-        <MyPlace />
         <Carousel />
         <Restaurantes />
       </main>
