@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           <div className="text-white font-semibold w-32 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Restaurantes</div>
         </Link>
       </div>
-      <Link href="/Contact" passHref>
+      <Link href="/login" passHref>
         <div className="flex items-center gap-2 cursor-pointer hover:bg-red-900 w-20 h-12 rounded-md">
           <Image src={loginIcon} alt="icone de login" width={24} height={24} />
           <p className="text-base font-semibold">Login</p>
