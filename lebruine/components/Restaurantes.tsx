@@ -7,7 +7,7 @@ const Restaurantes: React.FC = () => {
             <div className="inline-flex mt-6 pl-4 items-end justify-between gap-4 w-auto h-full">
                 <div className="font-sans justify-start items-baseline w-auto">
                     <div className="float-left">
-                        <h2 className="text-red-600 m-0">Restaurante Katon Haisekisho</h2>
+                        <h2 className="text-red-600 m-0">Restaurante Dona Benta</h2>
                         <h4 className="text-gray-500 m-auto">Rua Napoleão Bonaparte, 32, Boa Vista - Garanhuns-PE</h4>
                     </div>
                 </div>
