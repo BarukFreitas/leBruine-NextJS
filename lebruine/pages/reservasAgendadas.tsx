@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '@/components/Header';
+import HeaderReservas from '@/components/HeaderReservas';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
 
@@ -12,7 +12,7 @@ const ReservasAgendadas: React.FC = () => {
             <link rel="icon" href="/favicon.svg" type='image/svg+xml' />
         </Head>
         <header>
-            <Header />
+            <HeaderReservas />
         </header>
         <main className={styles.main}>
 
