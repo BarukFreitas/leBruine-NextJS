@@ -5,7 +5,7 @@ import logo from '../assets/le-bruine-logo-vermelho.svg';
 
 const CadastroCNPJ: React.FC = () => {
     return (
-        <div className="min-h-[70vh] flex flex-col items-center justify-center pb-10 pt-32">
+        <div className="min-h-screen flex flex-col items-center justify-center">
             <div className="flex flex-col justify-center items-center">
                 <Image src={logo} alt="logo" className="h-12 w-48" />
             </div>

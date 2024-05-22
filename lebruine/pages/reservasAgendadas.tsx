@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import Header from '@/components/Header';
+import HeaderReservas from '@/components/HeaderReservas';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
-import HeaderLogo from '@/components/HeaderLogo';
-import Reservas from '@/components/Reservas';
+import ListaReservas from '@/components/listaReservas';
 
 const ReservasAgendadas: React.FC = () => {
   return (
@@ -14,10 +13,10 @@ const ReservasAgendadas: React.FC = () => {
             <link rel="icon" href="/favicon.svg" type='image/svg+xml' />
         </Head>
         <header>
-            <HeaderLogo />
+            <HeaderReservas />
         </header>
         <main className={styles.main}>
-            <Reservas />
+          <ListaReservas />
         </main>
         <footer className={styles.footer}>
             <Footer />
