@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
-import Login from '@/components/Login';
+import Cadastro from '@/components/Cadastro';
 
-const LoginPage: React.FC = () => {
+const CadastroPage: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +12,7 @@ const LoginPage: React.FC = () => {
         <link rel="icon" href="/favicon.svg" type='image/svg+xml' />
       </Head>
       <main className={styles.main}>
-        <Login />
+        <Cadastro />
       </main>
       <footer className={styles.footer}>
         <Footer />
@@ -22,4 +21,4 @@ const LoginPage: React.FC = () => {
   );
 };
 
-export default LoginPage;
+export default CadastroPage;
