@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
-import Cadastro from '@/components/Cadastro';
+import CadastroCPF from '@/components/CadastroCPF';
 
-const CadastroPage: React.FC = () => {
+const CadastroPageCPF: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +12,7 @@ const CadastroPage: React.FC = () => {
         <link rel="icon" href="/favicon.svg" type='image/svg+xml' />
       </Head>
       <main className={styles.main}>
-        <Cadastro />
+        <CadastroCPF />
       </main>
       <footer className={styles.footer}>
         <Footer />
@@ -21,4 +21,4 @@ const CadastroPage: React.FC = () => {
   );
 };
 
-export default CadastroPage;
+export default CadastroPageCPF;
