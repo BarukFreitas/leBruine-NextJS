@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import logo from '../assets/le-Bruine-logo.png';
 import lupa from '../assets/lupa.svg';
-import loginIcon from '../assets/login-ico.svg';
 import Link from 'next/link';
 
 const Header: React.FC = () => {
@@ -25,7 +24,7 @@ const Header: React.FC = () => {
         </button>
       </div>
       <div className="flex gap-4">
-        <Link href="/cadastro" passHref>
+        <Link href="/selecionarPerfil" passHref>
           <div className=" text-red-600 font-semibold w-auto p-3 h-12 flex justify-center  bg-white rounded-md border-2 border-transparent hover:text-white hover:bg-red-600 hover:border-white items-center">Criar conta</div>
         </Link>
         <Link href="/login" passHref>

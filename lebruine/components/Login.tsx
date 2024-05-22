@@ -24,6 +24,9 @@ const Login: React.FC = () => {
             <Link href='/' className="w-24 h-12 mt-8 pb-1 text-white font-semibold bg-red-800 rounded-md border-2 border-transparent hover:text-red-800 hover:bg-white hover:border-red-800 flex items-center justify-center">
                 Entrar
             </Link>
+            <Link href='selecionarPerfil' className="mt-4 text-red-600">
+                Não possui um cadastro?
+            </Link>
         </div>
     );
 }
