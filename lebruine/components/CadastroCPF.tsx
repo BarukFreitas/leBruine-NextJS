@@ -2,20 +2,18 @@ import React from "react";
 import Link from 'next/link';
 import Image from "next/image";
 import logo from '../assets/le-bruine-logo-vermelho.svg';
-import user from '../assets/user-round.svg';
-import login from '../assets/log-in.svg';
 
-const Cadastro: React.FC = () => {
+const CadastroCPF: React.FC = () => {
     return (
         <div className="min-h-[70vh] flex flex-col items-center justify-center pb-10 pt-32">
             <div className="flex flex-col justify-center items-center">
                 <Image src={logo} alt="logo" className="h-12 w-48" />
             </div>
             <div className="flex items-center border-2 border-red-600 rounded-lg p-1 gap-2 w-80 mt-8">
-                <input className="flex-grow" type="text" name="empresa" id="empresa" maxLength={255} placeholder="Informe o nome da empresa" />
+                <input className="flex-grow" type="text" name="nome" id="nome" maxLength={255} placeholder="Informe seu nome completo" />
             </div>
             <div className="flex items-center border-2 border-red-600 rounded-lg p-1 gap-2 w-80 mt-8">
-                <input className="flex-grow" type="text" name="cnpj" id="cnpj" maxLength={14} placeholder="Informe o CNPJ" />
+                <input className="flex-grow" type="text" name="cpf" id="cpf" maxLength={11} placeholder="Informe o CPF" />
             </div>
             <div className="flex items-center border-2 border-red-600 rounded-lg p-1 gap-2 w-80 mt-8">
                 <input className="flex-grow" type="email" name="email" id="email" maxLength={255} placeholder="Informe o e-mail" />
@@ -41,4 +39,4 @@ const Cadastro: React.FC = () => {
     );
 }
 
-export default Cadastro;
+export default CadastroCPF;
