@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from '../assets/le-bruine-logo-vermelho.svg';
 import user from '../assets/user-round.svg';
 import login from '../assets/log-in.svg';
+import key from '../assets/key-round.svg'
 
 const Login: React.FC = () => {
     return (
@@ -17,7 +18,7 @@ const Login: React.FC = () => {
                 <input className="flex-grow" type="email" name="email" id="email" placeholder="Digite seu e-mail" />
             </div>
             <div className="flex items-center border-2 border-red-600 rounded-lg p-1 gap-2 w-80 mt-4">
-                <Image src={login} alt="log-in" />
+                <Image src={key} alt="log-in" />
                 <input className="flex-grow" type="password" name="password" id="password" placeholder="Digite sua senha" />
             </div>
             <Link href='/' className="w-24 h-12 mt-8 pb-1 text-white font-semibold bg-red-800 rounded-md border-2 border-transparent hover:text-red-800 hover:bg-white hover:border-red-800 flex items-center justify-center">
