@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
-    <div className="bg-red-600 text-white w-auto h-24 flex items-center justify-between px-4 gap-2">
+    <div className="bg-red-600 text-white w-auto h-24 flex items-center justify-between px-20 gap-2">
       <Link href="/" passHref>
         <div className="flex-shrink-0 cursor-pointer">
           <Image src={logo} alt="logo" width={120} height={80} />
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
         <input
           type="text"
           placeholder="Busque por restaurante, comida, cidade..."
-          className="w-auto h-12 bg-white text-black text-base px-2 mr-4 rounded-md focus:outline-none"
+          className="w-96 h-12 bg-white text-black text-base px-2 mr-4 rounded-md focus:outline-none"
           id="searchBar"
         />
         <button className="w-16 h-12 bg-red-800 rounded-md hover:bg-red-900 flex justify-center items-center">
@@ -25,22 +25,13 @@ const Header: React.FC = () => {
         </button>
       </div>
       <div className="flex gap-4">
-        <Link href="#" passHref>
-          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Minhas reservas</div>
+        <Link href="/cadastro" passHref>
+          <div className=" text-red-600 font-semibold w-auto p-3 h-12 flex justify-center  bg-white rounded-md border-2 border-transparent hover:text-white hover:bg-red-600 hover:border-white items-center">Criar conta</div>
         </Link>
-        <Link href="#" passHref>
-          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Sobre</div>
-        </Link>
-        <Link href="#" passHref>
-          <div className="text-white font-semibold w-auto p-3 h-12 flex justify-center rounded-md items-center hover:bg-red-900">Restaurantes</div>
+        <Link href="/login" passHref>
+          <div className=" text-white font-semibold w-auto p-3 h-12 flex justify-center border-white border-2 bg-red-600 rounded-md hover:text-red-600 hover:bg-white hover:border-white items-center">Entrar</div>
         </Link>
       </div>
-      <Link href="/login" passHref>
-        <div className="flex items-center gap-2 cursor-pointer hover:bg-red-900 w-20 h-12 rounded-md">
-          <Image src={loginIcon} alt="icone de login" width={24} height={24} />
-          <p className="text-base font-semibold">Login</p>
-        </div>
-      </Link>
     </div>
   );
 };
