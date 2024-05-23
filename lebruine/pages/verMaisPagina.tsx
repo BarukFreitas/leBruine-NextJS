@@ -2,10 +2,9 @@ import Head from 'next/head';
 import HeaderReservas from '@/components/HeaderReservas';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
-import ListaReservas from '@/components/listaReservas';
 import VerMais from '@/components/verMais';
 
-const ReservasAgendadas: React.FC = () => {
+const verMaisPagina: React.FC = () => {
   return (
     <div className={styles.container}>
         <Head>
@@ -17,7 +16,7 @@ const ReservasAgendadas: React.FC = () => {
             <HeaderReservas />
         </header>
         <main className={styles.main}>
-          <ListaReservas />
+          <VerMais />
         </main>
         <footer className={styles.footer}>
             <Footer />
@@ -26,4 +25,4 @@ const ReservasAgendadas: React.FC = () => {
   );
 };
 
-export default ReservasAgendadas;
+export default verMaisPagina;
