@@ -2,6 +2,7 @@ import Head from 'next/head';
 import HeaderReservas from '@/components/HeaderReservas';
 import Footer from '../components/Footer';
 import styles from '../styles/home.module.css';
+import ListaReservas from '@/components/listaReservas';
 
 const ReservasAgendadas: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const ReservasAgendadas: React.FC = () => {
             <HeaderReservas />
         </header>
         <main className={styles.main}>
-
+          <ListaReservas />
         </main>
         <footer className={styles.footer}>
             <Footer />
