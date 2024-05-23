@@ -13,19 +13,19 @@ const ListaReservas: React.FC = () => {
                 <div className="flex border-b pb-2 border-gray-500 w-full justify-around">
                     <span className="font-sans text-lg flex w-full justify-start font-bold text-red-600 ml-auto">Yuri Baruk de Freitas</span>
                     <button className="w-16 bg-red-600 hover:bg-red-900 text-white rounded-md text-xs">
-                        <Link href="/fazer-reserva">Ver mais</Link>
+                        <Link href="/verMaisPagina" passHref>Ver mais</Link>
                     </button>
                 </div>
                 <div className="flex border-b pb-2 border-gray-500 w-full justify-around">
                     <span className="font-sans text-lg flex w-full justify-start font-bold text-red-600 ml-auto">Thiago Anízio Miranda</span>
                     <button className="w-16 bg-red-600 hover:bg-red-900 text-white rounded-md text-xs">
-                        <Link href="/fazer-reserva">Ver mais</Link>
+                        <Link href="/verMaisPagina" passHref>Ver mais</Link>
                     </button>
                 </div>
                 <div className="flex border-b pb-2 border-gray-500 w-full justify-around">
                     <span className="font-sans text-lg flex w-full justify-start font-bold text-red-600 ml-auto">Madre Tereza de calcutá</span>
                     <button className="w-16 bg-red-600 hover:bg-red-900 text-white rounded-md text-xs">
-                        <Link href="/fazer-reserva">Ver mais</Link>
+                        <Link href="/verMaisPagina" passHref>Ver mais</Link>
                     </button>
                 </div>
             </div>
